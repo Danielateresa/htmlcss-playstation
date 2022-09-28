@@ -80,7 +80,11 @@ img.lens {
     background-size: cover;
 }
 
-.logo_jumbotron {}
+.col.rounded-4.selected {
+    border: 3px solid blue;
+    padding: 3px;
+    margin-top: 3px;
+}
 
 .carousel_slide .row {
     padding-top: 200px;
