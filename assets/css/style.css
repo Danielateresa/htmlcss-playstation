@@ -21,11 +21,11 @@
     background-color: var(--pl-white);
 }
 
-.debug .carousel_slide,
+/* .debug .carousel_slide,
 .debug .jumbotron {
     background-color: red;
-    height: 500px;
-}
+    height: 580px;
+} */
 
 /* .debug [class^="col"] {
     height: 150px;
@@ -64,11 +64,6 @@ img {
     width: 80px;
 }
 
-/* #region footer */
-#site_footer {
-    background-color: var(--pl-foot);
-}
-
 .arrow_grey {
     width: 0.5rem;
     margin-left: 0.2rem
@@ -78,5 +73,23 @@ img.lens {
     width: 40%
 }
 
+.carousel_slide {
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo_jumbotron {}
+
+.carousel_slide .row {
+    padding-top: 200px;
+
+}
+
+/* #region footer */
+#site_footer {
+    background-color: var(--pl-foot);
+}
 
 /* #endregion footer */
