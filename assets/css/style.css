@@ -120,6 +120,12 @@ img.lens {
     background-size: cover;
 }
 
+
+.section_exp_playstation_4 span {
+    font-size: 14px;
+
+}
+
 /* #region footer */
 #site_footer {
     background-color: var(--pl-foot);
