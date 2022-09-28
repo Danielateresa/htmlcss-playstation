@@ -23,7 +23,8 @@
     background-color: var(--pl-white);
 }
 
-.debug .carousel_slide {
+.debug .carousel_slide,
+.debug .jumbotron {
     background-color: red;
     height: 500px;
 }
