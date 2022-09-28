@@ -13,11 +13,9 @@
 /* #endregion palette */
 
 /* #region debug */
-.debug #site_header {
-    background-color: var(--pl-black);
+/* .debug #site_header {
     height: 100px;
-    width: 100%;
-}
+} */
 
 .debug .section_carousel {
     background-color: var(--pl-white);
@@ -29,10 +27,10 @@
     height: 500px;
 }
 
-.debug [class^="col"] {
+/* .debug [class^="col"] {
     height: 150px;
     background-color: blue;
-}
+} */
 
 /* #endregion debug */
 
@@ -51,10 +49,34 @@ img {
     background-color: var(--pl-dark-gray);
 }
 
+/* #region header */
 
-/* #region common */
+/* #endregion header */
+.bg_black {
+    background-color: var(--pl-black);
+}
+
+.bg_grey {
+    background-color: var(--pl-btn-gray);
+}
+
+.sony_logo_box img {
+    width: 80px;
+}
+
+/* #region footer */
 #site_footer {
     background-color: var(--pl-foot);
 }
+
+.arrow_grey {
+    width: 0.5rem;
+    margin-left: 0.2rem
+}
+
+img.lens {
+    width: 40%
+}
+
 
 /* #endregion footer */
