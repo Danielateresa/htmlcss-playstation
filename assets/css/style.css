@@ -19,6 +19,20 @@
     width: 100%;
 }
 
+.debug .section_carousel {
+    background-color: var(--pl-white);
+}
+
+.debug .carousel_slide {
+    background-color: red;
+    height: 500px;
+}
+
+.debug [class^="col"] {
+    height: 150px;
+    background-color: blue;
+}
+
 /* #endregion debug */
 
 /* #region common */
