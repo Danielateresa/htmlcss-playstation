@@ -1,0 +1,21 @@
+/* #region palette */
+:root {
+    --pl-black: #000000;
+    --pl-foot: #00439C;
+    --pl-bl-text: #1F1F1F;
+    --pl-btn-blue: #2D64E6;
+    --pl-btn-gray: #363636;
+    --pl-btn-red: #CD3D0F;
+    --pl-white: #FFFFFF;
+
+}
+
+/* #endregion palette */
+
+
+/* #region common */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* #endregion common */
