@@ -17,9 +17,9 @@
     height: 100px;
 } */
 
-.debug .section_carousel {
+/* .debug .section_carousel {
     background-color: var(--pl-white);
-}
+} */
 
 /* .debug .carousel_slide,
 .debug .jumbotron {
@@ -60,6 +60,22 @@ img {
     background-color: var(--pl-btn-gray);
 }
 
+.bg_btn_blue {
+    background-color: var(--pl-btn-blue);
+}
+
+.c_blue {
+    color: var(--pl-btn-blue);
+}
+
+.c_dark_gray {
+    color: var(--pl-dark-gray);
+}
+
+.c_light_gray {
+    color: rgb(148, 146, 146);
+}
+
 .sony_logo_box img {
     width: 80px;
 }
@@ -89,6 +105,19 @@ img.lens {
 .carousel_slide .row {
     padding-top: 200px;
 
+}
+
+.item_name {
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section_takes_two {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 /* #region footer */
