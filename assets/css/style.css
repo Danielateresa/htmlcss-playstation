@@ -50,3 +50,11 @@ img {
 .new_release {
     background-color: var(--pl-dark-gray);
 }
+
+
+/* #region common */
+#site_footer {
+    background-color: var(--pl-foot);
+}
+
+/* #endregion footer */
