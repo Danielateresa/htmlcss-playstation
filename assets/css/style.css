@@ -2,7 +2,7 @@
 :root {
     --pl-black: #000000;
     --pl-foot: #00439C;
-    --pl-bl-text: #1F1F1F;
+    --pl-dark-gray: #1F1F1F;
     --pl-btn-blue: #2D64E6;
     --pl-btn-gray: #363636;
     --pl-btn-red: #CD3D0F;
@@ -46,3 +46,7 @@ img {
 }
 
 /* #endregion common */
+
+.new_release {
+    background-color: var(--pl-dark-gray);
+}
