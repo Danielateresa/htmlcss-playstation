@@ -60,6 +60,10 @@ img {
     background-color: var(--pl-btn-gray);
 }
 
+.bg_w_trasparent {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
 .bg_btn_blue {
     background-color: var(--pl-btn-blue);
 }
@@ -123,7 +127,10 @@ img.lens {
 
 .section_exp_playstation_4 span {
     font-size: 14px;
+}
 
+.section_playstation_plus {
+    background-color: rgb(148, 146, 146);
 }
 
 /* #region footer */
@@ -132,3 +139,10 @@ img.lens {
 }
 
 /* #endregion footer */
+
+
+@media screen and (max-width:767px) {
+    .disappearing {
+        display: none;
+    }
+}
