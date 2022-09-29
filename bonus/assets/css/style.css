@@ -138,6 +138,14 @@ img.lens {
     font-weight: bold;
 }
 
+.product img {
+    filter: opacity(20%);
+}
+
+.product {
+    color: var(--pl-light-gray);
+}
+
 .section_takes_two {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-repeat: no-repeat;
@@ -228,6 +236,16 @@ li {
     transition: 0.3s;
 }
 
+.product:hover img {
+    filter: opacity(100%);
+}
+
+.product:hover {
+    color: var(--pl-dark-gray);
+    cursor: pointer;
+    border-bottom: 1px solid var(--pl-btn-blue);
+}
+
 /* #endregion hover */
 
 /* #region animations */
@@ -237,12 +255,12 @@ li {
 
 }
 
-
 .jumbotron .col:hover {
     cursor: pointer;
     margin-top: -20px;
 
 }
+
 
 /* #endregion animations */
 
