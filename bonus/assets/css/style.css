@@ -1,0 +1,176 @@
+/* #region palette */
+:root {
+    --pl-black: #000000;
+    --pl-foot: #00439C;
+    --pl-dark-gray: #1F1F1F;
+    --pl-btn-blue: #2D64E6;
+    --pl-btn-gray: #363636;
+    --pl-btn-red: #CD3D0F;
+    --pl-white: #FFFFFF;
+    --pl-dark-blue: #161C3B;
+    --fl-light-gray: rgb(148, 146, 146);
+}
+
+/* #endregion palette */
+
+/* #region debug */
+/* .debug #site_header {
+    height: 100px;
+} */
+
+/* .debug .section_carousel {
+    background-color: var(--pl-white);
+} */
+
+/* .debug .carousel_slide,
+.debug .jumbotron {
+    background-color: red;
+    height: 580px;
+} */
+
+/* .debug [class^="col"] {
+    height: 150px;
+    background-color: blue;
+} */
+
+/* #endregion debug */
+
+/* #region common */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* #endregion common */
+
+.new_release {
+    background-color: var(--pl-dark-gray);
+}
+
+/* #region header */
+
+/* #endregion header */
+.bg_black {
+    background-color: var(--pl-black);
+}
+
+.bg_grey {
+    background-color: var(--pl-btn-gray);
+}
+
+.bg_w_trasparent {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.bg_btn_blue {
+    background-color: var(--pl-btn-blue);
+}
+
+.bg_dark_blue {
+    background-color: var(--pl-dark-blue);
+}
+
+.c_blue {
+    color: var(--pl-btn-blue);
+}
+
+.c_dark_gray {
+    color: var(--pl-dark-gray);
+}
+
+.c_light_gray {
+    color: var(--fl-light-gray);
+}
+
+.sony_logo_box img {
+    width: 80px;
+}
+
+.arrow_grey {
+    width: 0.5rem;
+    margin-left: 0.2rem
+}
+
+img.lens {
+    width: 40%
+}
+
+.carousel_slide {
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.col.rounded-4.selected {
+    border: 3px solid blue;
+    padding: 3px;
+    margin-top: 3px;
+}
+
+.carousel_slide .row {
+    padding-top: 200px;
+
+}
+
+.item_name {
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section_takes_two {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.section_exp_playstation_4 span {
+    font-size: 14px;
+}
+
+.section_playstation_plus {
+    background-color: var(--fl-light-gray);
+}
+
+.globe {
+    width: 15px;
+}
+
+.globe_text,
+a {
+    font-size: 12px;
+    color: var(--pl-white);
+}
+
+li {
+    list-style: none;
+
+}
+
+.up_footer a {
+    text-decoration: none;
+}
+
+.sie {
+    width: 100px;
+}
+
+/* #region footer */
+#site_footer {
+    background-color: var(--pl-foot);
+}
+
+/* #endregion footer */
+
+
+@media screen and (max-width:767px) {
+    .disappearing {
+        display: none;
+    }
+}
