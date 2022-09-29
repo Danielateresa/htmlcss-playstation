@@ -8,51 +8,39 @@
     --pl-btn-red: #CD3D0F;
     --pl-white: #FFFFFF;
     --pl-dark-blue: #161C3B;
-    --fl-light-gray: rgb(148, 146, 146);
+    --pl-light-gray: rgb(148, 146, 146);
 }
 
 /* #endregion palette */
 
 /* #region debug */
-/* .debug #site_header {
+.debug #site_header {
     height: 100px;
-} */
+}
 
-/* .debug .section_carousel {
+.debug .section_carousel {
     background-color: var(--pl-white);
-} */
+}
 
-/* .debug .carousel_slide,
+.debug .carousel_slide,
 .debug .jumbotron {
     background-color: red;
     height: 580px;
-} */
+}
 
-/* .debug [class^="col"] {
+.debug[class^="col"] {
     height: 150px;
     background-color: blue;
-} */
+}
 
 /* #endregion debug */
 
-/* #region common */
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
+/* #region utility */
 
-img {
-    max-width: 100%;
-}
-
-/* #endregion common */
-
-.new_release {
+.bg_dark_grey {
     background-color: var(--pl-dark-gray);
 }
 
-/* #region header */
-
-/* #endregion header */
 .bg_black {
     background-color: var(--pl-black);
 }
@@ -82,9 +70,23 @@ img {
 }
 
 .c_light_gray {
-    color: var(--fl-light-gray);
+    color: var(--pl-light-gray);
 }
 
+/* #endregion utility */
+
+/* #region common */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* #endregion common */
+
+/* #region header */
 .sony_logo_box img {
     width: 80px;
 }
@@ -98,6 +100,16 @@ img.lens {
     width: 40%
 }
 
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border: 0
+}
+
+/* #endregion header */
+/* #region main */
 .carousel_slide {
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
@@ -129,15 +141,17 @@ img.lens {
     background-size: cover;
 }
 
-
 .section_exp_playstation_4 span {
     font-size: 14px;
 }
 
 .section_playstation_plus {
-    background-color: var(--fl-light-gray);
+    background-color: var(--pl-light-gray);
 }
 
+/* #endregion main */
+
+/* #region footer */
 .globe {
     width: 15px;
 }
@@ -167,6 +181,58 @@ li {
 }
 
 /* #endregion footer */
+
+/* region hover */
+
+button {
+    padding: 5px 10px
+}
+
+
+.selected_btn {
+    border-radius: 25px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    padding: 3px 7px;
+    margin: -5px -9px;
+}
+
+.button_nav:hover .selected_btn,
+.info_button:hover .selected_btn {
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.info_button {
+    border: 2px solid var(--pl-btn-blue)
+}
+
+.explore_button {
+    border: 2px solid var(--pl-light-gray)
+}
+
+.explore_button:hover {
+    box-shadow: 0px 0px 3px 0 rgba(255, 255, 255, 0.5);
+    transition: 0.3s;
+    border: 2px solid rgba(177, 177, 177, 0.5);
+}
+
+.explore_plus {
+    border: 2px solid var(--pl-white)
+}
+
+.explore_plus:hover .selected_btn {
+    border: 2px solid rgb(2, 2, 2);
+    transition: 0.3s;
+}
+
+.btn-danger:hover .selected_btn {
+    border: 2px solid rgb(2, 2, 2);
+    transition: 0.3s;
+}
+
+/* #endregion hover */
+
+
 
 
 @media screen and (max-width:767px) {
