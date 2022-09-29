@@ -7,7 +7,8 @@
     --pl-btn-gray: #363636;
     --pl-btn-red: #CD3D0F;
     --pl-white: #FFFFFF;
-
+    --pl-dark-blue: #161C3B;
+    --fl-light-gray: rgb(148, 146, 146);
 }
 
 /* #endregion palette */
@@ -68,6 +69,10 @@ img {
     background-color: var(--pl-btn-blue);
 }
 
+.bg_dark_blue {
+    background-color: var(--pl-dark-blue);
+}
+
 .c_blue {
     color: var(--pl-btn-blue);
 }
@@ -77,7 +82,7 @@ img {
 }
 
 .c_light_gray {
-    color: rgb(148, 146, 146);
+    color: var(--fl-light-gray);
 }
 
 .sony_logo_box img {
@@ -130,7 +135,30 @@ img.lens {
 }
 
 .section_playstation_plus {
-    background-color: rgb(148, 146, 146);
+    background-color: var(--fl-light-gray);
+}
+
+.globe {
+    width: 15px;
+}
+
+.globe_text,
+a {
+    font-size: 12px;
+    color: var(--pl-white);
+}
+
+li {
+    list-style: none;
+
+}
+
+.up_footer a {
+    text-decoration: none;
+}
+
+.sie {
+    width: 100px;
 }
 
 /* #region footer */
