@@ -14,45 +14,33 @@
 /* #endregion palette */
 
 /* #region debug */
-/* .debug #site_header {
+.debug #site_header {
     height: 100px;
-} */
+}
 
-/* .debug .section_carousel {
+.debug .section_carousel {
     background-color: var(--pl-white);
-} */
+}
 
-/* .debug .carousel_slide,
+.debug .carousel_slide,
 .debug .jumbotron {
     background-color: red;
     height: 580px;
-} */
+}
 
-/* .debug [class^="col"] {
+.debug[class^="col"] {
     height: 150px;
     background-color: blue;
-} */
+}
 
 /* #endregion debug */
 
-/* #region common */
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
+/* #region utility */
 
-img {
-    max-width: 100%;
-}
-
-/* #endregion common */
-
-.new_release {
+.bg_dark_grey {
     background-color: var(--pl-dark-gray);
 }
 
-/* #region header */
-
-/* #endregion header */
 .bg_black {
     background-color: var(--pl-black);
 }
@@ -85,6 +73,20 @@ img {
     color: var(--fl-light-gray);
 }
 
+/* #endregion utility */
+
+/* #region common */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* #endregion common */
+
+/* #region header */
 .sony_logo_box img {
     width: 80px;
 }
@@ -98,6 +100,8 @@ img.lens {
     width: 40%
 }
 
+/* #endregion header */
+/* #region main */
 .carousel_slide {
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
@@ -129,7 +133,6 @@ img.lens {
     background-size: cover;
 }
 
-
 .section_exp_playstation_4 span {
     font-size: 14px;
 }
@@ -138,6 +141,9 @@ img.lens {
     background-color: var(--fl-light-gray);
 }
 
+/* #endregion main */
+
+/* #region footer */
 .globe {
     width: 15px;
 }
@@ -167,6 +173,8 @@ li {
 }
 
 /* #endregion footer */
+
+
 
 
 @media screen and (max-width:767px) {
