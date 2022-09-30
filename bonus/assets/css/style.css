@@ -333,7 +333,7 @@ li {
     width: 100px;
 }
 
-.dropdown-item:hover {
+.upper_item:hover {
     box-shadow: 0 0 5px 3px rgb(218, 217, 217);
 }
 
