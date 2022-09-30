@@ -49,6 +49,10 @@
     background-color: var(--pl-btn-gray);
 }
 
+.bg_red {
+    background-color: var(--pl-btn-red);
+}
+
 .bg_w_trasparent {
     background-color: rgba(255, 255, 255, 0.5);
 }
@@ -84,8 +88,10 @@ img {
     max-width: 100%;
 }
 
-button {
-    padding: 5px 10px
+.button {
+    padding: 5px 10px;
+    text-decoration: none;
+    box-shadow: 0 0 0 2px rgba(253, 3, 3, 0) inset;
 }
 
 /* #endregion common */
@@ -173,16 +179,10 @@ img.lens {
     border: 2px solid var(--pl-light-gray)
 }
 
-.explore_plus {
+.now {
     border: 2px solid var(--pl-white)
 }
 
-.selected_btn {
-    border-radius: 25px;
-    border: 2px solid rgba(255, 255, 255, 0);
-    padding: 3px 7px;
-    margin: -5px -9px;
-}
 
 /* #endregion main */
 
@@ -209,7 +209,7 @@ li {
     width: 100px;
 }
 
-/* #region footer */
+
 #site_footer {
     background-color: var(--pl-foot);
 }
@@ -218,10 +218,30 @@ li {
 
 /* region hover */
 
-.button_nav:hover .selected_btn,
-.info_button:hover .selected_btn {
-    border: 2px solid rgb(255, 255, 255);
-    transition: 0.3s;
+.button_nav {
+    border: 2px solid var(--pl-btn-gray);
+}
+
+.button_buy {
+    border: 2px solid var(--pl-btn-red);
+}
+
+.button_buy:hover {
+    border: 2px solid var(--pl-btn-red);
+    box-shadow: 0 0 0 2px black inset;
+    transition: 0.2s;
+}
+
+.button_nav:hover {
+    border: 2px solid var(--pl-btn-gray);
+    box-shadow: 0 0 0 2px rgb(255, 255, 255) inset;
+    transition: 0.2s;
+}
+
+.info_button:hover {
+    border: 2px solid var(--pl-btn-blue);
+    box-shadow: 0 0 0 2px rgb(255, 255, 255) inset;
+    transition: 0.2s;
 }
 
 .explore_button:hover {
@@ -230,14 +250,11 @@ li {
     border: 2px solid rgba(177, 177, 177, 0.5);
 }
 
-.explore_plus:hover .selected_btn {
-    border: 2px solid rgb(2, 2, 2);
-    transition: 0.3s;
-}
-
-.btn-danger:hover .selected_btn {
-    border: 2px solid rgb(2, 2, 2);
-    transition: 0.3s;
+.now:hover {
+    border: 2px solid var(--pl-white);
+    box-shadow: 0 0 0 2px black inset;
+    transition: 0.2s;
+    color: var(--pl-dark-gray);
 }
 
 .product:hover img {
@@ -264,7 +281,6 @@ li {
     margin-top: -20px;
 
 }
-
 
 /* #endregion animations */
 
