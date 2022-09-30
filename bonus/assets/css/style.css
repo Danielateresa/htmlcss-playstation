@@ -122,6 +122,10 @@ img.lens {
     border: 0
 }
 
+.dropdown .show:hover img.arrow_grey {
+    transform: rotate(180deg);
+}
+
 /* #endregion header */
 /* #region main */
 .carousel_slide {
@@ -171,6 +175,14 @@ img.lens {
     background-color: var(--pl-light-gray);
 }
 
+.button_nav {
+    border: 2px solid var(--pl-btn-gray);
+}
+
+.button_buy {
+    border: 2px solid var(--pl-btn-red);
+}
+
 .info_button {
     border: 2px solid var(--pl-btn-blue)
 }
@@ -182,7 +194,6 @@ img.lens {
 .now {
     border: 2px solid var(--pl-white)
 }
-
 
 /* #endregion main */
 
@@ -217,31 +228,22 @@ li {
 /* #endregion footer */
 
 /* region hover */
-
-.button_nav {
-    border: 2px solid var(--pl-btn-gray);
-}
-
-.button_buy {
-    border: 2px solid var(--pl-btn-red);
-}
-
 .button_buy:hover {
     border: 2px solid var(--pl-btn-red);
     box-shadow: 0 0 0 2px black inset;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 .button_nav:hover {
     border: 2px solid var(--pl-btn-gray);
     box-shadow: 0 0 0 2px rgb(255, 255, 255) inset;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 .info_button:hover {
     border: 2px solid var(--pl-btn-blue);
     box-shadow: 0 0 0 2px rgb(255, 255, 255) inset;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 .explore_button:hover {
@@ -253,7 +255,7 @@ li {
 .now:hover {
     border: 2px solid var(--pl-white);
     box-shadow: 0 0 0 2px black inset;
-    transition: 0.2s;
+    transition: 0.3s;
     color: var(--pl-dark-gray);
 }
 
@@ -283,7 +285,6 @@ li {
 }
 
 /* #endregion animations */
-
 
 @media screen and (max-width:767px) {
     .disappearing {
