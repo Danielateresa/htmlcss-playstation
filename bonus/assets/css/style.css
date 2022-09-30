@@ -164,7 +164,7 @@ img.lens {
 
 .dropdown-menu {
     width: 100vw;
-    --bs-dropdown-bg: #f8f9fa;
+    --bs-dropdown-bg: var(--pl-white);
     --bs-dropdown-border-color: #e9ecef00;
     --bs-dropdown-border-radius: 0;
     --bs-dropdown-border-width: 1px;
@@ -177,12 +177,13 @@ img.lens {
     font-size: var(--bs-dropdown-font-size);
     color: var(--bs-dropdown-color);
     text-align: center;
-
+    --bs-dropdown-link-hover-bg: var(--pl-white);
     background-color: var(--bs-dropdown-bg);
     background-clip: padding-box;
     border: var(--bs-dropdown-border-width) solid var(--bs-dropdown-border-color);
     border-radius: var(--bs-dropdown-border-radius);
 }
+
 
 /* #endregion header */
 
@@ -326,6 +327,22 @@ li {
     color: var(--pl-dark-gray);
     cursor: pointer;
     border-bottom: 1px solid var(--pl-btn-blue);
+}
+
+.dropdown-item img {
+    width: 100px;
+}
+
+.dropdown-item:hover {
+    box-shadow: 0 0 5px 3px rgb(218, 217, 217);
+}
+
+.dropdown-item li {
+    list-style: disc;
+}
+
+.dropdown-item li:hover {
+    color: var(--pl-btn-blue);
 }
 
 /* #endregion hover */
