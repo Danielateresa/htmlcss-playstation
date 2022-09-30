@@ -97,9 +97,7 @@ img {
 /* #endregion common */
 
 /* #region header */
-.section_carousel {
-    margin-top: 93px;
-}
+
 
 .sony_logo_box img {
     width: 80px;
@@ -114,6 +112,7 @@ img.lens {
     width: 40%
 }
 
+/* #region navbar */
 .dropdown-toggle::after {
     display: inline-block;
     margin-left: 0.255em;
@@ -184,10 +183,19 @@ img.lens {
     border-radius: var(--bs-dropdown-border-radius);
 }
 
+/* #endregion navbar */
 
 /* #endregion header */
 
 /* #region main */
+.carousel-caption {
+    padding-right: 100px;
+}
+
+.section_carousel {
+    margin-top: 93px;
+}
+
 .carousel_slide {
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
@@ -203,7 +211,6 @@ img.lens {
 
 .carousel_slide .row {
     padding-top: 200px;
-
 }
 
 .item_name {
@@ -366,4 +373,5 @@ li {
     .disappearing {
         display: none;
     }
+
 }
