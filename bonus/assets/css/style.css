@@ -91,6 +91,10 @@ button {
 /* #endregion common */
 
 /* #region header */
+.section_carousel {
+    margin-top: 93px;
+}
+
 .sony_logo_box img {
     width: 80px;
 }
