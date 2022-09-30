@@ -122,11 +122,70 @@ img.lens {
     border: 0
 }
 
-.dropdown .show:hover img.arrow_grey {
+.dropdown .show img.arrow_grey {
     transform: rotate(180deg);
 }
 
+.dropdown-menu.giochi[data-bs-popper] {
+    position: absolute;
+    top: 50px;
+    left: -70px;
+}
+
+.dropdown-menu.hardware[data-bs-popper] {
+    position: absolute;
+    top: 50px;
+    left: -151.5px;
+}
+
+.dropdown-menu.servizi[data-bs-popper] {
+    position: absolute;
+    top: 50px;
+    left: -257px;
+}
+
+.dropdown-menu.novità[data-bs-popper] {
+    position: absolute;
+    top: 50px;
+    left: -341px;
+}
+
+.dropdown-menu.fai_acquisti[data-bs-popper] {
+    position: absolute;
+    top: 50px;
+    left: -422px;
+}
+
+.dropdown-menu.supporto[data-bs-popper] {
+    position: absolute;
+    top: 50px;
+    left: -539px;
+}
+
+.dropdown-menu {
+    width: 100vw;
+    --bs-dropdown-bg: #f8f9fa;
+    --bs-dropdown-border-color: #e9ecef00;
+    --bs-dropdown-border-radius: 0;
+    --bs-dropdown-border-width: 1px;
+    --bs-dropdown-inner-border-radius: calc(0.375rem - 1px);
+    --bs-dropdown-divider-bg: var(--bs-border-color-translucent);
+    --bs-dropdown-link-active-bg: #e9ecef;
+
+    padding: var(--bs-dropdown-padding-y) var(--bs-dropdown-padding-x);
+    margin: 0;
+    font-size: var(--bs-dropdown-font-size);
+    color: var(--bs-dropdown-color);
+    text-align: center;
+
+    background-color: var(--bs-dropdown-bg);
+    background-clip: padding-box;
+    border: var(--bs-dropdown-border-width) solid var(--bs-dropdown-border-color);
+    border-radius: var(--bs-dropdown-border-radius);
+}
+
 /* #endregion header */
+
 /* #region main */
 .carousel_slide {
     background-image: url(../img/jumbo-bg.png);
