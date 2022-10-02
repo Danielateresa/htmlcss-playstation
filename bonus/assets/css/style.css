@@ -128,37 +128,37 @@ img.lens {
 .dropdown-menu.giochi[data-bs-popper] {
     position: absolute;
     top: 50px;
-    left: -70px;
+    left: -130px;
 }
 
 .dropdown-menu.hardware[data-bs-popper] {
     position: absolute;
     top: 50px;
-    left: -151.5px;
+    left: -211px;
 }
 
 .dropdown-menu.servizi[data-bs-popper] {
     position: absolute;
     top: 50px;
-    left: -257px;
+    left: -317px;
 }
 
 .dropdown-menu.novità[data-bs-popper] {
     position: absolute;
     top: 50px;
-    left: -341px;
+    left: -401px;
 }
 
 .dropdown-menu.fai_acquisti[data-bs-popper] {
     position: absolute;
     top: 50px;
-    left: -422px;
+    left: -482px;
 }
 
 .dropdown-menu.supporto[data-bs-popper] {
     position: absolute;
     top: 50px;
-    left: -539px;
+    left: -599px;
 }
 
 .dropdown-menu {
